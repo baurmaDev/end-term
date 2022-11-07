@@ -31,7 +31,7 @@ const SearchBar = ({ OnSearchSubmit }) => {
                     <button onClick={() => {
                         setDarkTheme(!darkTheme)
                         document.body.style.background = darkTheme ? '#0f0f0f' : '#ffffff'
-                    }}>Switch Theme</button>
+                    }}>Switch button</button>
                 </div>
                 
             </div>
